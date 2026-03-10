@@ -4,7 +4,6 @@
     display: flex;
     justify-content: space-between;
     border-radius: 10px;
-    background-image: url("/SelectedTeam/Ferrari/FerrariBackground.png");
     background-size: cover;
     background-position: center;
     overflow: hidden;
