@@ -3,14 +3,10 @@ import {Teams} from "../data/SelectedTeams"
 
 export default function Home() {
   return (
-    <div>
-      <h1>F1 News</h1>
-      {Teams.map(team => (
-        <SelectedTeam
-        key={team.Team}
-        team={team}
-        />
-      ))}
-    </div>
+    <div style={{display: "flex", flexWrap: "wrap", gap: "30px", padding: "50px", justifyContent: "center"}}>
+    {Teams.map((team) => (
+      <SelectedTeam key={team.Team} team={team} />
+    ))}
+  </div>
   );
 }
