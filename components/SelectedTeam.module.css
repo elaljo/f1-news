@@ -41,12 +41,12 @@
     height: 30%;
 }
 .playerNumber{
-    width: 60%;
+    width: 55%;
     background-size: cover;
     background-position: center;
     filter: brightness(0%);
     opacity: 0;
-    transition: opacity 0.5s ease-in;
+    transition: opacity 0.4s ease-in-out;
 }
 .leftPlayerPhoto{
     cursor: pointer;
@@ -64,7 +64,7 @@
     transform-origin: top; 
 
 }
-/* user-select: none;         prevents selection */
+/* user-select: none;       
 /* -webkit-user-select: none; Safari/Chrome */
 /* -moz-user-select: none;    Firefox */
 /* user-drag: none;          For Safari */
