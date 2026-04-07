@@ -33,15 +33,15 @@ export const Teams: Team[] = [
     {
         Team: "Haas",
         background: "/SelectedTeam/Haas/HaasBackground.png",
-        leftPlayer: {
-            name: "esteban ocon",
-            image: "/SelectedTeam/Haas/EstebanOcon.avif",
-            number: "/SelectedTeam/Haas/OconNumber.avif"
-        },
-        rightPlayer:{
+        leftPlayer:{
             name: "oliver bearman",
             image: "/SelectedTeam/Haas/OliverBearman.avif",
             number: "/SelectedTeam/Haas/BearmanNumber.avif"
+        },
+        rightPlayer: {
+            name: "esteban ocon",
+            image: "/SelectedTeam/Haas/EstebanOcon.avif",
+            number: "/SelectedTeam/Haas/OconNumber.avif"
         }
     },
     {
@@ -62,28 +62,28 @@ export const Teams: Team[] = [
         Team: "McLaren",
         background: "/SelectedTeam/McLaren/McLarenBackground.png",
         leftPlayer: {
-            name: "Lando Norris",
-            image: "/SelectedTeam/McLaren/LandoNorris.avif",
-            number: "/SelectedTeam/McLaren/NorrisNumber.avif"
-        },
-        rightPlayer:{
             name: "Oscar Piastri",
             image: "/SelectedTeam/McLaren/OscarPiastri.avif",
             number: "/SelectedTeam/McLaren/PiastriNumber.avif"
+        },
+        rightPlayer: {
+            name: "Lando Norris",
+            image: "/SelectedTeam/McLaren/LandoNorris.avif",
+            number: "/SelectedTeam/McLaren/NorrisNumber.avif"
         }
     },
      {
         Team: "Mercedes",
         background: "/SelectedTeam/Mercedes/MercedesBackground.png",
-        leftPlayer: {
-            name: "George Russell",
-            image: "/SelectedTeam/Mercedes/GeorgeRussell.avif",
-            number: "/SelectedTeam/Mercedes/RussellNumber.avif"
-        },
-        rightPlayer:{
+        leftPlayer:{
             name: "Kimi Antonelli",
             image: "/SelectedTeam/Mercedes/KimiAntonelli.avif",
             number: "/SelectedTeam/Mercedes/KimiNumber.avif"
+        },
+        rightPlayer: {
+            name: "George Russell",
+            image: "/SelectedTeam/Mercedes/GeorgeRussell.avif",
+            number: "/SelectedTeam/Mercedes/RussellNumber.avif"
         }
     },
     // {
