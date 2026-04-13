@@ -7,12 +7,13 @@ export const Teams: Team[] = [
         leftPlayer: {
             name: "Charles Leclerc",
             image: "/SelectedTeam/Ferrari/CharlesLeclerc.avif",
-            number: "/SelectedTeam/Ferrari/LeclercNumber.avif"
+            number: "/SelectedTeam/Ferrari/LeclercNumber.avif",
+            playerName: "/SelectedTeam/Ferrari/LeclercName.png"
         },
         rightPlayer:{
             name: "Lewis Hamilton",
             image: "/SelectedTeam/Ferrari/LewisHamilton.avif",
-            number: "/SelectedTeam/Ferrari/HamiltonNumber.avif"
+            number: "/SelectedTeam/Ferrari/HamiltonNumber.avif",
         }
     },
     {
@@ -21,7 +22,8 @@ export const Teams: Team[] = [
         leftPlayer: {
             name: "Isack Hadjar",
             image: "/SelectedTeam/RedBull/IsackHadjar.avif",
-            number: "/SelectedTeam/RedBull/HadjarNumber.avif"
+            number: "/SelectedTeam/RedBull/HadjarNumber.avif",
+            playerName: "/SelectedTeam/RedBull/HadjarName.png"
         },
         rightPlayer:{
             name: "Max Verstappen",

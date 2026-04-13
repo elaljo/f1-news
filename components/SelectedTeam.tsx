@@ -20,41 +20,46 @@ export default function SelectedTeam({
   const delay = manualDelay ?? itemIndex * delayStep;
 
   return (
-    <motion.div
-      className={styles.container}
-      style={{ backgroundImage: `url(${team.background})` }}
+    <motion.div className="h-[22vh] overflow-hidden flex justify-end items-end rounded-xl"
       initial={{ opacity: 0, x: -150 }}
       animate={{ opacity: 1, x: 0 }}
       transition={{ duration: 0.3, ease: "easeOut", delay }}
     >
-      <div className={styles.leftPlayer}>
-        <div className={styles.playerInfo}>
+
+    <div
+      className={styles.container}
+      style={{ backgroundImage: `url(${team.background})` }}
+      >
+      <div className={`${styles.leftPlayer} group`}>
+        <div className={styles.playerInfoLeft}>
           <span
             className={styles.playerNumber}
             style={{ backgroundImage: `url(${team.leftPlayer.number})` }}
-          ></span>
+            ></span>
+            <img className={styles.playerName} src={team.leftPlayer.playerName} alt={team.leftPlayer.name} />
         </div>
         <img
           className={styles.leftPlayerPhoto}
           src={team.leftPlayer.image}
           alt={team.leftPlayer.name}
-        />
+          />
       </div>
       <div className={styles.rightPlayer}>
-        <div className={styles.playerInfo} style={{ justifyContent: "end" }}>
+        <div className={styles.playerInfoRight}>
+          <img className={styles.playerNameRight} src={team.rightPlayer.playerName} alt={team.rightPlayer.name} />
           <span
             className={styles.playerNumber}
             style={{ backgroundImage: `url(${team.rightPlayer.number})` }}
-          >
-            {" "}
+            >
           </span>
         </div>
         <img
           className={styles.rightPlayerPhoto}
           src={team.rightPlayer.image}
           alt={team.rightPlayer.number}
-        />
+          />
       </div>
+    </div>
     </motion.div>
   );
 }

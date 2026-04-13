@@ -3,7 +3,7 @@ import { Teams } from "../../data/SelectedTeams";
 
 export default function Drivers() {
   return (
-    <div className="flex flex-wrap justify-center gap-12 p-12">
+    <div className="flex flex-wrap justify-center gap-x-12">
       {Teams.map((team, index) => (
         <SelectedTeam
           key={team.Team}
