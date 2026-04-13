@@ -2,16 +2,16 @@ import SubNews from "@/components/SubNews";
 
 export default function News() {
   return (
-    <div className="flex gap-50 w-full h-full justify-center items-center p-25">
-        <div className="h-[50vh] w-[75vh] bg-black/40 rounded-xl p-5">
-            <div className="h-[37vh]">
-                <img src="/News/Audi.jpg" alt="News 1 photo" className="w-full h-full object-cover rounded-xl" />
+    <div className="flex gap-30 w-full h-full justify-center items-center p-15">
+        <div className="h-50vh] w-[85vh] bg-black/40 rounded-3xl p-5">
+            <div className="h-[45vh]">
+                <img src="/News/Audi.jpg" alt="News 1 photo" className="object-cover rounded-2xl w-full h-full opacity-80" />
             </div>
-            <div className="m-5">
-                <div className="text-2xl">
+            <div className="flex">
+                <div className="m-5 flex-1 text-3xl text-white/80">
                     FIRST LOOK: Audi reveal their new car for 2026 F1 season
                 </div>
-                <div className="flex justify-end text-sm w-full text-white/50">
+                <div className="m-2 flex items-end text-sm text-white/50">
                     8 hours ago
                 </div>
             </div>
