@@ -16,10 +16,10 @@ export default function News() {
                 </div>
             </div>
         </div>
-        <div className="h-[50vh] w-[60vh] p-5 flex flex-col gap-10">
-            <SubNews title="Antonelli takes pole for Japanese Grand Prix in Mercedes" image="/News/antoneli.jpg" altImage="Antoneli photo" />
-            <SubNews title="F1 News | Miracle of McLaren: Why the true test begins now" image="/News/lando.jpg" altImage="lando photo" />
-            <SubNews title="Ferrari driver Carlos Sainz Jr. has tested positive for COVID-19" image="/News/sainz.jpg" altImage="sainz photo" />
+        <div className="h-[60vh] w-[60vh] flex flex-col justify-between">
+            <SubNews title="Antonelli takes pole for Japanese Grand Prix in Mercedes" image="/News/antoneli.jpg" altImage="Antoneli photo" time="3 hours ago"/>
+            <SubNews title="F1 News | Miracle of McLaren: Why the true test begins now" image="/News/lando.jpg" altImage="lando photo" time="7 hours ago"/>
+            <SubNews title="Ferrari driver Carlos Sainz Jr. has tested positive for COVID-19" image="/News/sainz.jpeg" altImage="sainz photo" time="18 hours ago"/>
         </div>
     </div>
   );

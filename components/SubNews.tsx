@@ -7,12 +7,17 @@ interface SubNewsProps {
 
 export default function SubNews({ title, image, altImage, time }: SubNewsProps) {
     return (
-        <div className="bg-black/40 rounded-xl p-2 flex gap-5">
-            <div>
-                <img src={image} alt={altImage} className="w-55 h-25 rounded-md" />
+        <div className="bg-black/40 rounded-3xl p-3 flex gap-5 h-[15vh] group">
+            <div className="flex justify-center items-center w-[50%]">
+                <img src={image} alt={altImage} className="w-full h-full rounded-3xl opacity-80 group-hover:opacity-100 transition-all duration-500 ease-out group-hover:scale-[1.05]" />
             </div>
-            <div className="py-4">
-                {title}
+            <div className="flex flex-col py-4 justify-between">
+                <div className="text-white/80 text-xl group-hover:text-white/100 transition-all duration-300">
+                    {title}
+                </div>
+                <div className="text-white/50 text-sm flex justify-end items-end pr-2">
+                    {time}
+                </div>
             </div>
         </div>
     )
