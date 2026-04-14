@@ -1,3 +1,11 @@
+@keyframes playerPhotoAnimation {
+    0% {
+        transform: scaleX(-1) scale(1) translateY(0) translateX(0);
+    }
+    100% {
+        transform: scaleX(-1) scale(1.15) translateY(-60px) translateX(-5px);
+    }
+}
 .container{
     width: 75vh;
     height: 17vh;
@@ -15,7 +23,10 @@
         transform: scaleX(-1) scale(1.65) translateY(-50px) translateX(-5px);
     }
     .rightPlayerPhoto{
-        transform: scale(1.1) translateY(-60px) translateX(5px);
+        transform: scale(1.15) translateY(-60px) translateX(5px);
+    }
+    .rightPlayerPhoto:hover{
+        transform: scale(1.65) translateY(-50px) translateX(5px);
     }
     .playerNumber{
         opacity: 0.6;
@@ -37,6 +48,7 @@
 .rightPlayer{
     width: 18%;
     height: 100%;
+    /* background-color: red; */
 }
 .playerInfoLeft{
     display: flex;
@@ -46,9 +58,10 @@
 }
 .playerInfoRight{
     display: flex;
+    flex-direction: row-reverse;  
     height: 30%;
     width: 100%;
-    /* background-color: black; */
+    /* background-color: blue; */
 }
 .playerNumber{
     width: 65%;

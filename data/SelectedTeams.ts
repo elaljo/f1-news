@@ -14,6 +14,7 @@ export const Teams: Team[] = [
             name: "Lewis Hamilton",
             image: "/SelectedTeam/Ferrari/LewisHamilton.avif",
             number: "/SelectedTeam/Ferrari/HamiltonNumber.avif",
+            playerName: "/SelectedTeam/Ferrari/HamiltonName.png"
         }
     },
     {

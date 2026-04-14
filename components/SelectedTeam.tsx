@@ -4,6 +4,7 @@ import styles from "./SelectedTeam.module.css";
 import type { Team } from "../types";
 import { motion } from "framer-motion";
 
+
 type SelectedTeamProps = {
   team: Team;
   itemIndex?: number;
@@ -46,12 +47,8 @@ export default function SelectedTeam({
       </div>
       <div className={styles.rightPlayer}>
         <div className={styles.playerInfoRight}>
+          <img className={styles.playerNumber} src={team.rightPlayer.number} alt={team.rightPlayer.number} />
           <img className={styles.playerNameRight} src={team.rightPlayer.playerName} alt={team.rightPlayer.name} />
-          <span
-            className={styles.playerNumber}
-            style={{ backgroundImage: `url(${team.rightPlayer.number})` }}
-            >
-          </span>
         </div>
         <img
           className={styles.rightPlayerPhoto}
