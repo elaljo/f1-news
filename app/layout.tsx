@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Link from "next/link";
 import "@fontsource/orbitron";
+import SiteChrome from "@/components/SiteChrome";
 
 export const metadata: Metadata = {
   title: "F1 News",
@@ -16,6 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+        <SiteChrome>
         <header className="w-full h-20 p-12 flex items-center relative">
           <Link href="/" className="absolute left-50">  <img src="/f1-logo.png" alt="F1 logo" className=" w-40 h-40" /> </Link>
            <nav className="flex justify-center gap-18 text-xl mx-auto">
@@ -26,6 +28,8 @@ export default function RootLayout({
             <Link href="/circuits" className="hover:text-gray-300 font-f1 text-2xl">Circuits</Link>
            </nav>
         </header>
+            {children}
+        </SiteChrome> 
         <footer className="fixed bottom-10 h-35 w-180 rounded-xl overflow-hidden z-50">
           {/* Header / Title */}
           <div className="text-white/70 text-center font-f1 tracking-widest text-2xl px-4 py-4 font-bold">
@@ -37,13 +41,10 @@ export default function RootLayout({
               type="text"
               placeholder="Ask me anything..."
               className="flex-1 px-4 py-1 outline-none text-black text-xl"
-            />
+              />
             <button className="bg-black/20 text-white/70 rounded-xl px-4">Send</button>
           </div>
         </footer>
-        <main>
-          {children}
-        </main>
       </body>
     </html>
   );
