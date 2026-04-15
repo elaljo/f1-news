@@ -29,7 +29,8 @@ export const Teams: Team[] = [
         rightPlayer:{
             name: "Max Verstappen",
             image: "/SelectedTeam/RedBull/MaxVerstappen.avif",
-            number: "/SelectedTeam/RedBull/MaxNumber.avif"
+            number: "/SelectedTeam/RedBull/MaxNumber.avif",
+            playerName: "/SelectedTeam/RedBull/MaxName.png"
         }
     },
    
@@ -39,12 +40,14 @@ export const Teams: Team[] = [
         leftPlayer:{
             name: "oliver bearman",
             image: "/SelectedTeam/Haas/OliverBearman.avif",
-            number: "/SelectedTeam/Haas/BearmanNumber.avif"
+            number: "/SelectedTeam/Haas/BearmanNumber.avif",
+            playerName: "/SelectedTeam/Haas/BearmanName.png"
         },
         rightPlayer: {
             name: "esteban ocon",
             image: "/SelectedTeam/Haas/EstebanOcon.avif",
-            number: "/SelectedTeam/Haas/OconNumber.avif"
+            number: "/SelectedTeam/Haas/OconNumber.avif",
+            playerName: "/SelectedTeam/Haas/OconName.png"
         }
     },
     {
@@ -53,12 +56,14 @@ export const Teams: Team[] = [
         leftPlayer: {
             name: "Liam Lawson",
             image: "/SelectedTeam/Racing_Bull/LiamLawson.avif",
-            number: "/SelectedTeam/Racing_Bull/LawsonNumber.avif"
+            number: "/SelectedTeam/Racing_Bull/LawsonNumber.avif",
+            playerName: "/SelectedTeam/Racing_Bull/LawsonName.png"
         },
         rightPlayer:{
             name: "arvid lindblad",
             image: "/SelectedTeam/Racing_Bull/ArvidLindblad.avif",
-            number: "/SelectedTeam/Racing_Bull/LindbladNumber.avif"
+            number: "/SelectedTeam/Racing_Bull/LindbladNumber.avif",
+            playerName: "/SelectedTeam/Racing_Bull/LindbladName.png"
         }
     },
     {
@@ -67,12 +72,14 @@ export const Teams: Team[] = [
         leftPlayer: {
             name: "Oscar Piastri",
             image: "/SelectedTeam/McLaren/OscarPiastri.avif",
-            number: "/SelectedTeam/McLaren/PiastriNumber.avif"
+            number: "/SelectedTeam/McLaren/PiastriNumber.avif",
+            playerName: "/SelectedTeam/McLaren/PiastriName.png"
         },
         rightPlayer: {
             name: "Lando Norris",
             image: "/SelectedTeam/McLaren/LandoNorris.avif",
-            number: "/SelectedTeam/McLaren/NorrisNumber.avif"
+            number: "/SelectedTeam/McLaren/NorrisNumber.avif",
+            playerName: "/SelectedTeam/McLaren/NorrisName.png"
         }
     },
      {
@@ -81,12 +88,14 @@ export const Teams: Team[] = [
         leftPlayer:{
             name: "Kimi Antonelli",
             image: "/SelectedTeam/Mercedes/KimiAntonelli.avif",
-            number: "/SelectedTeam/Mercedes/KimiNumber.avif"
+            number: "/SelectedTeam/Mercedes/KimiNumber.avif",
+            playerName: "/SelectedTeam/Mercedes/KimiName.png"
         },
         rightPlayer: {
             name: "George Russell",
             image: "/SelectedTeam/Mercedes/GeorgeRussell.avif",
-            number: "/SelectedTeam/Mercedes/RussellNumber.avif"
+            number: "/SelectedTeam/Mercedes/RussellNumber.avif",
+            playerName: "/SelectedTeam/Mercedes/RussellName.png"
         }
     },
     // {
