@@ -4,17 +4,17 @@
 :root {
   --background: #33333C;
   --foreground: #ffffff;
-  --mercedes: #00D2BE;
-  --redbull: #0600EF;
   --ferrari: #DC0000;
-  --haas: #B6BABD;
+  --haas: #dee1e2;
   --mclaren: #FF8700;
-  --astonmartin: #006F62;
-  --cadillac: #2B4562;
-  --audi: #000000;
-  --williams: #005AFF;
-  --alpine: #0090FF;
-  --racingbull: #000000;
+  --redbull: #3671C6;
+  --racingbull: #6692FF;
+  --mercedes: #00D2BE;
+  --audi: #FF2D00;
+  --alpine: #00A1E8;
+  --cadillac: #AAAAAD;
+  --williams: #1868DB;
+  --astonmartin: #229971;
 }
 
 body {
